@@ -1,0 +1,60 @@
+{
+  "customer": {
+    "host": "10.101.53.35"
+  },
+  "server": {
+    "current_time": 1531680780,
+    "services": [{
+      "name": "weather",
+      "widgets": [{
+        "name": "city_temperature",
+        "description": "Display temperature for a city",
+        "params": [{
+          "name": "city",
+          "type": "string"
+        }]
+      }, {
+        "name": "weather forecast in 5 days",
+        "description": "Display a prediction in 5 days for a temperature for a city",
+        "params": [{
+          "name": "city",
+          "type": "string"
+        }]
+      }]
+    }, {
+      "name": "steam",
+      "widgets": [{
+        "name": "steam_user_id",
+        "description": "Display user id status",
+        "params": [{
+          "name": "id",
+          "type": "string"
+        }]
+      }, {
+        "name": "steam_game_id",
+        "description": "Display game news",
+        "params": [{
+          "name": "id",
+          "type": "string"
+        }]
+      }]
+    }, {
+      "name": "movie_and_tv_show",
+      "widgets": [{
+        "name": "movie_title",
+        "description": "Display movie release date and synopsis",
+        "params": [{
+          "name": "title",
+          "type": "string"
+        }]
+      }, {
+        "name": "tvShow_title",
+        "description": "Display tv show release date and synopsis",
+        "params": [{
+          "name": "title",
+          "type": "string"
+        }]
+      }]
+    }]
+  }
+}
